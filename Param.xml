@@ -1,0 +1,17 @@
+<suite name="suite1">
+    
+    
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="browser1" value="firefox"></parameter>
+    
+    <test name="test1">
+        
+        <classes>
+            
+            <class name="com.test.testng.sample.XmlSample"></class>
+            
+        </classes>
+        
+    </test>
+    
+</suite>

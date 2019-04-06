@@ -1,0 +1,61 @@
+<suite name="test suite">
+    
+    <test name="test1">
+        
+        <packages>
+            
+            <package name="com.test.testng.sample"></package>
+            
+        </packages>
+        
+    </test>
+    
+    
+    <test name="test2">
+        
+        
+        <classes>
+            
+            <class name="com.test.testng.sample.AnnotationSample"></class>
+            
+        </classes>
+        
+    </test>
+    
+    
+    <test name="test3">
+        
+        <classes>
+            
+            <class name="com.test.testng.sample.AnnotationSample">
+                
+                <methods><include name="c_m1"></include></methods>
+                
+            </class>
+            
+        </classes>
+        
+    </test>
+    
+    
+    <test name="test4">
+        
+         <groups>
+		    <run>
+		      <include name="sanity"  />
+		    </run>
+		  </groups>
+		  
+         <classes>
+	   		 <class name="com.test.testng.sample.AnnotationSample"></class>
+	  	 </classes>
+        
+    </test>
+    
+    
+    
+    
+    
+    
+    
+</suite>
